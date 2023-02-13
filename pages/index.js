@@ -14,7 +14,7 @@ function Home() {
 
     <div class="bg-slate-900 text-bookmark-white">
       <header>
-        <nav class="container flex items-center py-4 mt-4 sm:mt-12">
+        <nav class="container flex items-center py-4">
           <div class="flex-1">
             <div class="py-4 h-20 w-20 rounded-lg"> <img src="" alt="" /> </div>
           </div>
@@ -23,6 +23,7 @@ function Home() {
               <li class="cursor-pointer"> <a href="#Daten"> Daten </a> </li>
               <li class="cursor-pointer"> <a href="#editionen"> Digitale Editionen </a> </li>
               <li class="cursor-pointer"> <a href="#print"> Printpublikation </a> </li>
+              <li class="cursor-pointer"> <a href="#start"> Get Started </a> </li>
               <button type="button" class="bg-bookmark-purple text-bookmark-white rounded-md px-7 py-3 uppercase">Leg Los!</button>
             </ul>
           </div>
@@ -207,6 +208,91 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <section class= "py-10 mt-5 bg-slate-900">
+      </section>
+
+        <div id="start" class="sm:w-3/4 mx-auto px-2">
+          <h1 class="text-3xl text-center text-bookmark-white">
+            Get Started
+          </h1>
+          <p class="text-center text-bookmark-grey mt-4">
+            In nur vier Schritten loslegen
+          </p>
+        </div>
+
+          <section>
+            <div class="relative mt-20 lg:mt-24 bg-white p-10">
+
+              <div id="Daten" class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+                <div class="flex-1">
+                  <h2 class="text-2xl text-bookmark-blue text-right">1. VSCode installieren</h2>
+                  <p class="text-bookmark-grey mt-4">
+                  </p>
+                </div>
+                <div class="flex-1">
+                  <a href="https://code.visualstudio.com/download">
+                    <img class="h-20" src="https://cdn1.iconfinder.com/data/icons/akar-vol-2/24/vscode-fill-512.png" alt="" />
+                  </a>
+                </div>
+              </div>
+
+              <div id="Daten" class="container flex flex-col lg:flex-row items-center justify-center gap-x-24 mt-10">
+                <div class="flex-1">
+                  <h2 class="text-2xl text-bookmark-blue text-right">2. Extension downloaden</h2>
+                  <p class="text-bookmark-grey mt-4">
+                  </p>
+                </div>
+                <div class="flex-1">
+                  <img class="h-20" src="https://cdn1.iconfinder.com/data/icons/general-ui-outlined-thick/24/download-512.png" alt="" />
+                </div>
+              </div>
+
+              <div id="Daten" class="container flex flex-col lg:flex-row items-center justify-center gap-x-24 mt-10">
+                <div class="flex-1">
+                  <h2 class="text-2xl text-bookmark-blue text-right">3. Dokumentation downloaden</h2>
+                  <p class="text-bookmark-grey mt-4">
+                  </p>
+                </div>
+                <div class="flex-1">
+                  <img class="h-20" src="https://cdn3.iconfinder.com/data/icons/aami-web-internet/64/aami4-68-512.png" alt="" />
+                </div>
+              </div>
+
+              <div id="Daten" class="container flex flex-col lg:flex-row items-center justify-center gap-x-24 mt-10">
+                <div class="flex-1">
+                  <h2 class="text-2xl text-bookmark-blue text-right">4. CSS pointen</h2>
+                  <p class="text-bookmark-grey mt-4">
+                  </p>
+                </div>
+                <div class="flex-1">
+                  <img class="h-20" src="https://cdn3.iconfinder.com/data/icons/file-extension-11/512/css-file-extension-format-digital-512.png" alt="" />
+                </div>
+              </div>
+
+
+
+
+
+            </div>
+          </section>
+
+        <div id="start" class="sm:w-3/4 mx-auto px-2 mt-10 items-center">
+          <h1 class="text-3xl text-bookmark-white">
+            Mehr Informationen
+          </h1>
+          <div class="">
+            <button type="button" class="btn bg-bookmark-purple text-bookmark-white p-4 rounded-md bg-gradient-to-r from-purple-400 to-pink-600 hover:bg-bookmark-white mt-10">
+              <a href="">
+                Download Dokumente
+              </a>
+            </button>
+          </div>
+          
+        </div>
+
+
+    
 
       <footer class="bg-bookmark-blue py-8">
         <div class="container flex flex-col md:flex-row items-center p-10 m-5">

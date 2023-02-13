@@ -27,7 +27,6 @@ module.exports = {
     },
     extend: {
       colors: {
-        "vuejs" : "#dsfsdf",
         "bookmark-purple": "#5267DF",
         "bookmark-red": "#FA5959",
         "bookmark-blue": "#242A45",
