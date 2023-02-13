@@ -1,19 +1,34 @@
+import Head from "next/head"
+
 export default
 function Home() {
   return (
+    <html lang="en" className='scroll-smooth' style={{scrollBehavior:'smooth'}}>
+
+    <head>
+      <meta charset="UTF-8"></meta>
+      <title>Heureka Landing Page</title>
+    </head>
+
+    <body>
+
     <div class="bg-slate-900 text-bookmark-white">
       <header>
         <nav class="container flex items-center py-4 mt-4 sm:mt-12">
-          <div class="py-4 h-20 w-20 rounded-lg"> <img src="/imgs/logo_ai.jpg" alt="" /> </div>
-          <ul>
-          <li class="cursor-pointer"> <a href="#Daten"> Daten </a> </li>
-                <li class="cursor-pointer"> <a href="#editionen"> Digitale Editionen </a> </li>
-                <li class="cursor-pointer"> <a href="#print"> Printpublikation </a> </li>
-                <button type="button" class="bg-bookmark-purple text-bookmark-white rounded-md px-7 py-3 uppercase">Leg Los!</button>
-          </ul>
+          <div class="flex-1">
+            <div class="py-4 h-20 w-20 rounded-lg"> <img src="" alt="" /> </div>
+          </div>
+          <div>
+            <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-white uppercase text-xs">
+              <li class="cursor-pointer"> <a href="#Daten"> Daten </a> </li>
+              <li class="cursor-pointer"> <a href="#editionen"> Digitale Editionen </a> </li>
+              <li class="cursor-pointer"> <a href="#print"> Printpublikation </a> </li>
+              <button type="button" class="bg-bookmark-purple text-bookmark-white rounded-md px-7 py-3 uppercase">Leg Los!</button>
+            </ul>
+          </div>
         </nav>
       </header>
-      
+
       <section class="relative">
 
         <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
@@ -41,7 +56,7 @@ function Home() {
         </div>
       </section>
 
-      <section class= "py-20 mt-10 lg:mt-60 bg-slate-900">
+      <section class= "py-20 mt-5 bg-slate-900">
         <div id="Section_further_down" class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
           <h1 class="text-3xl text-center text-bookmark-white">
             Weil best practive nicht immer die beste Lösung ist
@@ -156,8 +171,41 @@ function Home() {
             </div>
           </div>
         </div>
+      </section>
 
+      <section>
+        <div id="editionen" class="relative mt-20">
+          <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+            <div class="flex-1">
+              <img src="https://media.istockphoto.com/id/1354153850/de/foto/dokumenten-management-system-automatisierungssoftware-zur-archivierung-und-effizienten.jpg?s=2048x2048&w=is&k=20&c=sf8pwHTKOOsR7dEhx4jOifcp1nbiuiGHhB60fjVnmxE=" alt=""/>
+            </div>
 
+            <div class="flex-1">
+                <h2 class="text-2xl text-bookmark-white">Digitale Editionen</h2>
+                <p class="text-bookmark-grey mt-4">
+                Unabhängig vom Ausgabegerät können User die Edition im responsive Desgn durchsuchen und damit arbeiten
+                </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div id="print" class="relative mt-20 p-5 bg-white">
+          <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+              <div class="flex-1">
+                  <h2 class="text-2xl text-bookmark-blue">Printpublikation</h2>
+                  <p class="text-bookmark-grey mt-4">
+                    Schluss mit umständlichen Auszeichnungen
+                    Nutze die vielfältigen open source Editoren mit direkter Vorschau
+                  </p>
+              </div>
+
+              <div class="flex-1">
+                  <img class="h-96" src="https://media.istockphoto.com/id/176870633/de/foto/schreibmaschine-hammers.jpg?s=2048x2048&w=is&k=20&c=HhU83P7RhsSj3kclHoQs9IZzB3yCt1kOBOaaIpb96Tg=" alt=""/>
+              </div>
+          </div>
+        </div>
       </section>
 
       <footer class="bg-bookmark-blue py-8">
@@ -190,5 +238,8 @@ function Home() {
         
       </footer>
     </div>
+    </body>
+
+    </html>
   );
 }
