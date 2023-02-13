@@ -12,14 +12,14 @@ function Home() {
 
     <body>
 
-    <div class="bg-slate-900 text-bookmark-white">
+    <div class="text-bookmark-white">
       <header>
         <nav class="container flex items-center py-4">
           <div class="flex-1">
             <div class="py-4 h-20 w-20 rounded-lg"> <img src="" alt="" /> </div>
           </div>
           <div>
-            <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-white uppercase text-xs">
+            <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 uppercase text-xs">
               <li class="cursor-pointer"> <a href="#Daten"> Daten </a> </li>
               <li class="cursor-pointer"> <a href="#editionen"> Digitale Editionen </a> </li>
               <li class="cursor-pointer"> <a href="#print"> Printpublikation </a> </li>
@@ -59,7 +59,7 @@ function Home() {
 
       <section class= "py-20 mt-5 bg-slate-900">
         <div id="Section_further_down" class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
-          <h1 class="text-3xl text-center text-bookmark-white">
+          <h1 class="text-3xl text-center ">
             Weil best practive nicht immer die beste Lösung ist
           </h1>
           <p class="text-center text-bookmark-grey mt-4">
@@ -71,7 +71,7 @@ function Home() {
           <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
 
             <div class="flex-1">
-              <h2 class="text-2xl text-bookmark-white">
+              <h2 class="text-2xl ">
                 HTML 5
               </h2>
               <p class="text-bookmark-grey mt-4">
@@ -81,7 +81,7 @@ function Home() {
             </div>
             
             <div class="flex-1">
-              <h2 class="text-2xl text-bookmark-white">
+              <h2 class="text-2xl ">
                 TEI-XML
               </h2>
               <p class="text-bookmark-grey mt-4">
@@ -97,9 +97,31 @@ function Home() {
 
       </section>
       
+      <div id="print" class="relative my-30 py-10 p-5 bg-white">
+          <div class="flex flex-col items-center gap-x-24 container">
+
+              <div class="">
+                  <h2 class="text-2xl text-bookmark-blue text-center">Einfache Anwendung in Visual Studio Code</h2>
+                  <p class="text-bookmark-blue mt-4 text-center mb-10">
+                    Ausgabe des Ergebnisses direkt im Editor
+                  </p>
+              </div>
+
+              <div class="">
+                  <img class="h-96 border-2 border-black" src="/imgs/vscode_small.png" alt=""/>
+              </div>
+          </div>
+        </div>
+
+
       <section>
-        <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
-          <table class="table-auto text-bookmark-white border-separate border-spacing-2 border border-slate-500">
+        <div class="container flex flex-col  items-center justify-center gap-x-24 mt-20">
+
+        <div class="">
+                  <h2 class="text-2xl text-bookmark-white text-center mb-10">Vergleich mit anderen Auszeichnungssystemen</h2>
+              </div>
+
+          <table class="table-auto border-separate border-spacing-2 border border-slate-500">
             <thead>
             <tr>
                   <th class="border border-slate-600 border-spacing-2 p-4 bg-bookmark-blue">Technologie</th>
@@ -119,7 +141,7 @@ function Home() {
                   <td class="border border-slate-700 text-center p-4 bg-red-600">⭑</td>
                   <td class="border border-slate-700 text-center p-4">-</td>
                   <td class="border border-slate-700 text-center p-4">-</td>
-                  <td class="border border-slate-700 text-center p-4 bg-green-800">⭑</td>
+                  <td class="border border-slate-700 text-center p-4 bg-green-800">⭑⭑⭑</td>
                 </tr>
 
                 <tr>
@@ -134,8 +156,8 @@ function Home() {
 
                 <tr>
                   <td class="border border-slate-700 p-4 bg-bookmark-blue">TEI-XML</td>
-                  <td class="border border-slate-700 text-center p-4 bg-red-600">⭑</td>
                   <td class="border border-slate-700 text-center p-4 bg-green-800">⭑⭑⭑</td>
+                  <td class="border border-slate-700 text-center p-4 bg-red-600">⭑</td>
                   <td class="border border-slate-700 text-center p-4 bg-red-600">⭑</td>
                   <td class="border border-slate-700 text-center p-4">-</td>
                   <td class="border border-slate-700 text-center p-4">-</td>
@@ -182,7 +204,7 @@ function Home() {
             </div>
 
             <div class="flex-1">
-                <h2 class="text-2xl text-bookmark-white">Digitale Editionen</h2>
+                <h2 class="text-2xl ">Digitale Editionen</h2>
                 <p class="text-bookmark-grey mt-4">
                 Unabhängig vom Ausgabegerät können User die Edition im responsive Desgn durchsuchen und damit arbeiten
                 </p>
@@ -213,7 +235,7 @@ function Home() {
       </section>
 
         <div id="start" class="sm:w-3/4 mx-auto px-2">
-          <h1 class="text-3xl text-center text-bookmark-white">
+          <h1 class="text-3xl text-center ">
             Get Started
           </h1>
           <p class="text-center text-bookmark-grey mt-4">
@@ -269,63 +291,53 @@ function Home() {
                   <img class="h-20" src="https://cdn3.iconfinder.com/data/icons/file-extension-11/512/css-file-extension-format-digital-512.png" alt="" />
                 </div>
               </div>
-
-
-
-
-
             </div>
           </section>
 
-        <div id="start" class="sm:w-3/4 mx-auto px-2 mt-10 items-center">
-          <h1 class="text-3xl text-bookmark-white">
-            Mehr Informationen
-          </h1>
-          <div class="">
-            <button type="button" class="btn bg-bookmark-purple text-bookmark-white p-4 rounded-md bg-gradient-to-r from-purple-400 to-pink-600 hover:bg-bookmark-white mt-10">
-              <a href="">
-                Download Dokumente
-              </a>
+        <div id="start" class="flex flex-col p-10 items-center">
+
+          <div>
+            <h1 class="text-3xl text-center">
+              Mehr Informationen
+            </h1>
+          </div>
+
+          <div className="">
+            <button type="button" class=" btn bg-bookmark-purple text-bookmark-white p-4 rounded-md bg-gradient-to-r from-purple-400 to-pink-600 mt-10">
+                <a href="">
+                  Download Dokumente
+                </a>
             </button>
           </div>
-          
-        </div>
-
-
-    
-
-      <footer class="bg-bookmark-blue py-8">
-        <div class="container flex flex-col md:flex-row items-center p-10 m-5">
-          <div class="flex mb-4 gap-12 ">
-            <div class="w-1/3">
-              <p>
-              Ein Rahmenwerk der Bayerischen Akademie der Wissenschaften
-              </p>
-            </div>
-
-            <div class="w-1/3">
-              <img class="footerimage" src="imgs/wortmarke.png" alt="" />
-            </div>
-
-            <div class="w-1/3">
-              <ul>
-                <b><a href="https://badw.de/data/footer-navigation/impressum.html">IMPRESSUM</a></b>
-                <br /><br />
-                <b><a href="https://badw.de/data/footer-navigation/datenschutz.html">DATENSCHUTZ</a></b>
-                <br /><br />
-                <b><a href="https://badw.de/kontakt-und-anfahrt.html">KONTAKT</a></b>
-                <br /><br />
-              </ul>
-            </div>
-            
-          </div>
 
         </div>
-        
-      </footer>
+
+      <div className="bg-bookmark-blue flex justify-evenly p-10">
+
+        <div className="text-sm basis-1/3 text-center">
+          <p>Ein Rahmenwerk der 
+            Bayerischen Akademie der Wissenschaften</p>
+        </div>
+
+        <div className="basis-1/3 ">
+          <img class="h-20" src="imgs/wortmarke.png" alt=""/>
+        </div>
+
+        <div className="flex-row basis-1/3">
+            <a href="https://badw.de/data/footer-navigation/impressum.html">
+              <p>Impressum</p>
+            </a>
+            <a href="https://badw.de/data/footer-navigation/datenschutz.html">
+              <p>Datenschutz</p>
+            </a>
+            <a href="https://badw.de/kontakt-und-anfahrt.html">
+              <p>Kontakt</p>
+            </a>
+        </div>
+      </div>
+
     </div>
     </body>
-
     </html>
   );
 }
