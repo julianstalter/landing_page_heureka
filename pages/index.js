@@ -15,6 +15,7 @@ function Home() {
     <div class="text-bookmark-white">
       <header>
         <nav class="container flex items-center py-4">
+        <img src="/imgs/LogoHeureka.svg" width="200 px" />
           <div class="flex-1">
             <div class="py-4 h-20 w-20 rounded-lg"> <img src="" alt="" /> </div>
           </div>
@@ -60,10 +61,10 @@ function Home() {
       <section class= "py-20 mt-5 bg-slate-900">
         <div id="Section_further_down" class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
           <h1 class="text-3xl text-center ">
-            Weil best practive nicht immer die beste Lösung ist
+            Weil best practice nicht immer die beste Lösung ist
           </h1>
           <p class="text-center text-bookmark-grey mt-4">
-          HTML 5 erlaubt einfachere und schlankere Lösungen als TEI-XML und lässt sich zielgerichtet auf dein Projekt zuschneiden
+          HTML 5 erlaubt einfachere und schlankere Lösungen als TEI-XML und lässt sich zielgerichtet auf Dein Projekt zuschneiden
           </p>
         </div>
 
@@ -254,7 +255,7 @@ function Home() {
                 </div>
                 <div class="flex-1">
                   <a href="https://code.visualstudio.com/download">
-                    <img class="h-20" src="https://cdn1.iconfinder.com/data/icons/akar-vol-2/24/vscode-fill-512.png" alt="" />
+                    <img class="h-20" src="https://cdn1.iconfinder.com/data/icons/akar-vol-2/24/vscode-fill-512.png" height="50%" alt="" />
                   </a>
                 </div>
               </div>
@@ -266,7 +267,7 @@ function Home() {
                   </p>
                 </div>
                 <div class="flex-1">
-                  <img class="h-20" src="https://cdn1.iconfinder.com/data/icons/general-ui-outlined-thick/24/download-512.png" alt="" />
+                  <img class="h-20" src="/imgs/exporticon.svg" width="35 px" alt="" />
                 </div>
               </div>
 
@@ -277,7 +278,7 @@ function Home() {
                   </p>
                 </div>
                 <div class="flex-1">
-                  <img class="h-20" src="https://cdn3.iconfinder.com/data/icons/aami-web-internet/64/aami4-68-512.png" alt="" />
+                <img class="h-20" src="/imgs/pdficon.svg" width="40 px" alt="" />
                 </div>
               </div>
 
@@ -288,7 +289,7 @@ function Home() {
                   </p>
                 </div>
                 <div class="flex-1">
-                  <img class="h-20" src="https://cdn3.iconfinder.com/data/icons/file-extension-11/512/css-file-extension-format-digital-512.png" alt="" />
+                <img class="h-20" src="/imgs/cssicon.svg" width="35 px" alt="" />
                 </div>
               </div>
             </div>
