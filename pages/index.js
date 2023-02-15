@@ -78,6 +78,14 @@ function Home() {
               <p class="text-bookmark-grey mt-4">
                 Intuitiv verständlich, differenziert, eindeutig
               </p>
+              <pre><code class= "language-javascript">
+              &lt;i&gt;
+              <br></br>
+              &lt;em/em&gt;
+              <br></br>
+              &gt;b/b&gt;
+                </code> </pre>
+              
               <img class="h-96 align-center" src="/imgs/html.jpg" alt="" />
             </div>
             
@@ -191,7 +199,7 @@ function Home() {
               </p>
             </div>
             <div class="flex-1">
-              <img class="h-96" src="https://media.istockphoto.com/id/1279103299/de/vektor/ai-künstliche-intelligenz-und-deep-learning-konzept-neuronaler-netzwerke-wellenausgleich.jpg?s=2048x2048&w=is&k=20&c=wbwUobkwY38P4JSyXvZ-UmvDUJr4Y5ZSa51NHjAgAwo=" alt="" />
+            <img src="/imgs/in_loco.png" alt="https://www.istockphoto.com/de/foto/dokumenten-management-system-automatisierungssoftware-zur-archivierung-und-gm1354153850-429055202" height="297" width="509"/>
             </div>
           </div>
         </div>
@@ -201,13 +209,13 @@ function Home() {
         <div id="editionen" class="relative mt-20">
           <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
             <div class="flex-1">
-              <img src="https://media.istockphoto.com/id/1354153850/de/foto/dokumenten-management-system-automatisierungssoftware-zur-archivierung-und-effizienten.jpg?s=2048x2048&w=is&k=20&c=sf8pwHTKOOsR7dEhx4jOifcp1nbiuiGHhB60fjVnmxE=" alt=""/>
+            <img src="/imgs/in_loco.png" alt="https://www.istockphoto.com/de/foto/dokumenten-management-system-automatisierungssoftware-zur-archivierung-und-gm1354153850-429055202" height="297" width="509"/>
             </div>
 
             <div class="flex-1">
                 <h2 class="text-2xl ">Digitale Editionen</h2>
                 <p class="text-bookmark-grey mt-4">
-                Unabhängig vom Ausgabegerät können User die Edition im responsive Desgn durchsuchen und damit arbeiten
+                Unabhängig vom Ausgabegerät können User die Edition im responsive Desgn durchsuchen und damit arbeiten.
                 </p>
             </div>
           </div>
@@ -220,13 +228,14 @@ function Home() {
               <div class="flex-1">
                   <h2 class="text-2xl text-bookmark-blue">Printpublikation</h2>
                   <p class="text-bookmark-grey mt-4">
-                    Schluss mit umständlichen Auszeichnungen
-                    Nutze die vielfältigen open source Editoren mit direkter Vorschau
+                    Schluss mit umständlichen Auszeichnungen.
+                    <br></br>
+                    Nutze die vielfältigen open source Editoren mit direkter Vorschau.
                   </p>
               </div>
 
               <div class="flex-1">
-                  <img class="h-96" src="https://media.istockphoto.com/id/176870633/de/foto/schreibmaschine-hammers.jpg?s=2048x2048&w=is&k=20&c=HhU83P7RhsSj3kclHoQs9IZzB3yCt1kOBOaaIpb96Tg=" alt=""/>
+              <img src="/imgs/in_loco.png" alt="https://www.istockphoto.com/de/foto/dokumenten-management-system-automatisierungssoftware-zur-archivierung-und-gm1354153850-429055202" height="297" width="509"/>
               </div>
           </div>
         </div>
